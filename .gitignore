@@ -1,3 +1,65 @@
-
+# IDE and Git
 .codegpt
 .git
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Training artifacts and models
+*.pickle
+*.pkl
+runs/
+training/
+models/
+policies/
+logs/
+*.zip
+
+# Data files
+*.mat
+*.h5
+*.hdf5
+
+# Videos
+*.mp4
+*.avi
+*.mov
+
+# Tensorboard
+events.out.tfevents.*
+*.tfevents.*
+
+# Large figure directories (keep only essential figures)
+figures/
+scripts/figures/
+scripts/figures_all_conditions/
+scripts/figures_elv_angle_vel/
+scripts/figures_rot_angle_vel/
+scripts/figures_shoulder_angle_vel/
+scripts/velocity_over_time/
+scripts/videos/
+videos/
+polar histogram/policies/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Data directories
+./scripts/jPCAData
+./scripts/models
+scripts/runs/
+scripts/logs/
+scripts/policies/
+
+# HTML outputs
+*.html
+
+# Temporary files
+test
+test.zip
+testt.zip
+"no exploration"
